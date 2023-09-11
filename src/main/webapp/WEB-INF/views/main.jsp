@@ -314,7 +314,7 @@
 
 
             <section id="certification" class="certification m_cont">
-                <h3 class="con_tit1 t_center">협렵 업체</h3>
+                <h3 class="con_tit1 t_center">협력 업체</h3>
                 <div class="area">
                     <!-- <div class="certification_slide swiper-container">
                         Additional required wrapper

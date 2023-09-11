@@ -30,21 +30,17 @@
                             </ul>
                         </li>
                         <li class="depth1">
+                            <a href="/">포트폴리오</a>
+                            <ul class="depth2">
+                                <li><a href="/">미정</a></li>
+                            </ul>
+                        </li>
+                        <li class="depth1">
                             <a href="/service">고객지원</a>
                             <ul class="depth2">
                                 <li><a href="/service">공지사항</a></li>
                                 <li><a href="/contact">CONTACT US</a></li>
-                            </ul>
-                        </li>
-                        <li class="depth1">
-                            <a href="/news">홍보센터</a>
-                            <ul class="depth2">
                                 <li><a href="/news">사내뉴스</a></li>
-                            </ul>
-                        </li>
-                        <li class="depth1">
-                            <a href="/recruit">인재채용</a>
-                            <ul class="depth2">
                                 <li><a href="/recruit">채용공고</a></li>
                             </ul>
                         </li>
