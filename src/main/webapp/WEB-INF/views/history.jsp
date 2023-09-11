@@ -105,9 +105,6 @@
                                         <li>
                                             <p class="sub_p">에이오코리아 법인 전환</p>
                                         </li>
-                                        <li>
-                                            <p class="sub_p">르노코리아자동차(주) 출고차관리시스템 구축 협의</p>
-                                        </li>
                                         <li class="now">
                                             <span></span>
                                             <span></span>
@@ -120,22 +117,57 @@
                             <li class="d1_li aos-init aos-animate" data-aos="fade-up">
 								<div class="his_dot"></div>
 								<div class="his_txt">
+									<h3 class="sub_h3">2023.08</h3>
+									<p class="sub_p">이열 대표 취임</p>
+								</div>
+							</li>
+                            <li class="d1_li aos-init aos-animate" data-aos="fade-up">
+								<div class="his_dot"></div>
+								<div class="his_txt">
+									<h3 class="sub_h3">2023.07</h3>
+									<p class="sub_p">목포대학교 대학-산업체간 조기취업형 계약학과 운영 협약</p>
+								</div>
+							</li>
+                            <li class="d1_li aos-init aos-animate" data-aos="fade-up">
+								<div class="his_dot"></div>
+								<div class="his_txt">
+									<h3 class="sub_h3">2023.05</h3>
+									<p class="sub_p">현장맞춤형 체계적훈련지원사업 표준 협약</p>
+								</div>
+							</li>
+                            <li class="d1_li aos-init aos-animate" data-aos="fade-up">
+								<div class="his_dot"></div>
+								<div class="his_txt">
+									<h3 class="sub_h3">2023.03</h3>
+									<p class="sub_p">목포시 투자협약</p>
+								</div>
+							</li>
+                            <li class="d1_li aos-init aos-animate" data-aos="fade-up">
+								<div class="his_dot"></div>
+								<div class="his_txt">
+									<h3 class="sub_h3">2023.03</h3>
+									<p class="sub_p">순천대학교 상호협력 협약</p>
+								</div>
+							</li>
+                            <li class="d1_li aos-init aos-animate" data-aos="fade-up">
+								<div class="his_dot"></div>
+								<div class="his_txt">
 									<h3 class="sub_h3">2023.03</h3>
 									<p class="sub_p">에이오코리아 설립</p>
 								</div>
 							</li>
-                            <li class="d1_li aos-init aos-animate" data-aos="fade-up">
+                            <!-- <li class="d1_li aos-init aos-animate" data-aos="fade-up">
                                 <div class="his_dot"></div>
                                 <div class="his_txt">
                                     <h3 class="sub_h3">2022</h3>
                                     <p class="sub_p">전라남도청 투자유치 사후관리시스템 구축 및 유지보수</p>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="d1_li aos-init aos-animate" data-aos="fade-up">
                                 <div class="his_dot"></div>
                                 <div class="his_txt">
-                                    <h3 class="sub_h3">2021</h3>
-                                    <p class="sub_p">모두의 농장 게임 개발</p>
+                                    <h3 class="sub_h3">2022.11</h3>
+                                    <p class="sub_p">전남 ICT/SW기업 혁신협의체 구성 합의</p>
                                 </div>
                             </li>
                             <li class="d1_li aos-init aos-animate" data-aos="fade-up">

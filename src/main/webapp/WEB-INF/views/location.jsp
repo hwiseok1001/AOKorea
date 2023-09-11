@@ -11,7 +11,7 @@
     <jsp:include page="script.jsp"></jsp:include>
 
     <script type="text/javascript"
-        src="//dapi.kakao.com/v2/maps/sdk.js?appkey=c536417ad37d7defea828f3fbeea119d"></script>
+        src="//dapi.kakao.com/v2/maps/sdk.js?appkey=c42cf6221aeb9efae6721f4626191260"></script>
     <script type="text/javascript"
         src="//dapi.kakao.com/v2/maps/sdk.js?appkey=c536417ad37d7defea828f3fbeea119d&libraries=LIBRARY"></script>
     <!--     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -110,135 +110,7 @@
                         <span class="sub_addr">전라남도 목포시 석현로 46, 301호 </span>
                     </h2>
                     <!-- 지도 div 이전에서 가져옴 -->
-                    <div id="map"
-						style="height: 400px; position: relative; overflow: hidden; background: url(&quot;https://t1.daumcdn.net/mapjsapi/images/bg_tile.png&quot;);">
-						<div
-							style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; touch-action: none; cursor: url(&quot;https://t1.daumcdn.net/mapjsapi/images/cursor/openhand.cur.ico&quot;) 7 5, url(&quot;https://t1.daumcdn.net/mapjsapi/images/cursor/openhand.cur.ico&quot;), default;">
-							<div style="position: absolute;">
-								<div style="position: absolute; z-index: 0;"></div>
-								<div
-									style="position: absolute; z-index: 1; left: 0px; top: 0px;">
-									<img
-										src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNGSD01/v16_260kk/2/1615/1384.png"
-										alt="" role="presentation" draggable="false"
-										style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -12px; top: 239px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img
-										src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNGSD01/v16_260kk/2/1615/1385.png"
-										alt="" role="presentation" draggable="false"
-										style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 244px; top: 239px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img
-										src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNGSD01/v16_260kk/2/1615/1386.png"
-										alt="" role="presentation" draggable="false"
-										style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 500px; top: 239px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img
-										src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNGSD01/v16_260kk/2/1615/1387.png"
-										alt="" role="presentation" draggable="false"
-										style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 756px; top: 239px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img
-										src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNGSD01/v16_260kk/2/1615/1388.png"
-										alt="" role="presentation" draggable="false"
-										style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 1012px; top: 239px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img
-										src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNGSD01/v16_260kk/2/1615/1389.png"
-										alt="" role="presentation" draggable="false"
-										style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 1268px; top: 239px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img
-										src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNGSD01/v16_260kk/2/1615/1390.png"
-										alt="" role="presentation" draggable="false"
-										style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 1524px; top: 239px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img
-										src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNGSD01/v16_260kk/2/1616/1384.png"
-										alt="" role="presentation" draggable="false"
-										style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -12px; top: -17px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img
-										src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNGSD01/v16_260kk/2/1616/1385.png"
-										alt="" role="presentation" draggable="false"
-										style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 244px; top: -17px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img
-										src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNGSD01/v16_260kk/2/1616/1386.png"
-										alt="" role="presentation" draggable="false"
-										style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 500px; top: -17px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img
-										src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNGSD01/v16_260kk/2/1616/1387.png"
-										alt="" role="presentation" draggable="false"
-										style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 756px; top: -17px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img
-										src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNGSD01/v16_260kk/2/1616/1388.png"
-										alt="" role="presentation" draggable="false"
-										style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 1012px; top: -17px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img
-										src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNGSD01/v16_260kk/2/1616/1389.png"
-										alt="" role="presentation" draggable="false"
-										style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 1268px; top: -17px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img
-										src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNGSD01/v16_260kk/2/1616/1390.png"
-										alt="" role="presentation" draggable="false"
-										style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 1524px; top: -17px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img
-										src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNGSD01/v16_260kk/2/1617/1384.png"
-										alt="" role="presentation" draggable="false"
-										style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: -12px; top: -273px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img
-										src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNGSD01/v16_260kk/2/1617/1385.png"
-										alt="" role="presentation" draggable="false"
-										style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 244px; top: -273px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img
-										src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNGSD01/v16_260kk/2/1617/1386.png"
-										alt="" role="presentation" draggable="false"
-										style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 500px; top: -273px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img
-										src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNGSD01/v16_260kk/2/1617/1387.png"
-										alt="" role="presentation" draggable="false"
-										style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 756px; top: -273px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img
-										src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNGSD01/v16_260kk/2/1617/1388.png"
-										alt="" role="presentation" draggable="false"
-										style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 1012px; top: -273px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img
-										src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNGSD01/v16_260kk/2/1617/1389.png"
-										alt="" role="presentation" draggable="false"
-										style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 1268px; top: -273px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;"><img
-										src="https://map.daumcdn.net/map_k3f_prod/bakery/image_map_png/PNGSD01/v16_260kk/2/1617/1390.png"
-										alt="" role="presentation" draggable="false"
-										style="position: absolute; user-select: none; -webkit-user-drag: none; min-width: 0px; min-height: 0px; max-width: none; max-height: none; left: 1524px; top: -273px; opacity: 1; transition-property: opacity; transition-duration: 0.2s; transition-timing-function: ease; width: 256px; height: 256px;">
-								</div>
-								<div style="position: absolute; z-index: 1;"></div>
-								<div
-									style="width: 1292px; height: 400px; position: absolute; z-index: 1;"></div>
-								<div style="position: absolute; z-index: 1;">
-									<svg version="1.1"
-										style="stroke: none; stroke-dashoffset: 0.5; stroke-linejoin: round; fill: none; transform: translateZ(0px); position: absolute; width: 6460px; height: 2000px; left: -2584px; top: -800px;"
-										viewBox="0 0 6460 2000">
-										<defs></defs></svg>
-								</div>
-								<div
-									style="position: absolute; z-index: 1; width: 100%; height: 0px; transform: translateZ(0px);">
-									<div
-										style="position: absolute; margin: -39px 0px 0px -14px; z-index: 0; left: 646px; top: 200px;">
-										<img draggable="false"
-											src="https://t1.daumcdn.net/mapjsapi/images/marker.png"
-											alt="" role="presentation" title=""
-											style="min-width: 0px; min-height: 0px; max-width: 99999px; max-height: none; border: 0px; display: block; position: absolute; user-select: none; -webkit-user-drag: none; clip: rect(0px, 29px, 42px, 0px); top: 0px; left: 0px; width: 29px; height: 42px;"><img
-											src="https://t1.daumcdn.net/mapjsapi/images/transparent.gif"
-											alt="" role="presentation" draggable="false"
-											usemap="#daum.maps.Marker.Area:1"
-											style="min-width: 0px; min-height: 0px; max-width: 99999px; max-height: none; border: 0px; display: block; position: absolute; user-select: none; -webkit-user-drag: none; width: 29px; height: 42px;">
-										<map id="daum.maps.Marker.Area:1"
-											name="daum.maps.Marker.Area:1">
-											<area href="javascript:void(0)" alt="" role="presentation"
-												shape="poly"
-												coords="14,39,9,27,4,21,1,16,1,10,4,4,11,0,18,0,25,4,28,10,28,16,25,21,20,27"
-												title="" style="-webkit-tap-highlight-color: transparent;">
-										</map>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div
-							style="position: absolute; cursor: default; z-index: 1; margin: 0px 6px; height: 19px; line-height: 14px; left: 0px; bottom: 0px; color: rgb(0, 0, 0);">
-							<div
-								style="color: rgb(0, 0, 0); text-align: center; font-size: 10px; float: left;">
-								<div
-									style="float: left; margin: 2px 3px 0px 4px; height: 6px; transition: width 0.1s ease 0s; border-top: none rgb(0, 0, 0); border-right: 2px solid rgb(0, 0, 0); border-bottom: 2px solid rgb(0, 0, 0); border-left: 2px solid rgb(0, 0, 0); border-image: initial; width: 56px;"></div>
-								<div
-									style="float: left; margin: 0px 4px 0px 0px; font-family: AppleSDGothicNeo-Regular, 돋움, dotum, sans-serif; font-weight: bold; color: rgb(0, 0, 0);">30m</div>
-							</div>
-							<div style="margin: 0px 4px; float: left;">
-								<a target="_blank" href="http://map.kakao.com/"
-									title="Kakao 지도로 보시려면 클릭하세요."
-									style="float: left; width: 32px; height: 10px;"><img
-									src="https://t1.daumcdn.net/mapjsapi/images/m_bi_b.png"
-									alt="Kakao 지도로 이동"
-									style="float: left; width: 32px; height: 10px; border: none;"></a>
-								<div
-									style="font: 11px/11px Arial, Tahoma, Dotum, sans-serif; float: left;"></div>
-							</div>
-						</div>
-						<div
-							style="cursor: auto; position: absolute; z-index: 2; left: 0px; top: 0px;"></div>
-					</div>
-
+                    <div id="map" style="height:400px;"></div>
 
                     <div class="map_con mt_75">
                         <h3>주소 및 연락처</h3>
@@ -250,14 +122,10 @@
                                 </p>
                             </li>
                             <li><b>TEL.</b>
-                                <p class="con_sub">
-                                    061-282-0580
-                                </p>
+                                <p class="con_sub">061-802-0850</p>
                             </li>
                             <li><b>E-MAIL.</b>
-                                <p class="con_sub">
-                                    the@aokorea.net
-                                </p>
+                                <p class="con_sub">jang@aeokorea.com</p>
                             </li>
                         </ul>
                     </div>
