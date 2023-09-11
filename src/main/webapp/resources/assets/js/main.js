@@ -44,7 +44,7 @@ $(function() {
        asNavFor: image_slide
    } ).on( 'beforeChange', function ( event, slick, currentSlide, nextSlide )
    { 
-   
+
        $( "#mb-tab li.act" ).removeClass( "act" ),
            $( "#mb-tab li:eq(" + nextSlide + ")" ).addClass( "act" ),
            $( "#mb-tab-top li.act" ).removeClass( "act" ),
@@ -69,6 +69,8 @@ $(function() {
        e.preventDefault();
        
        var idx = $( this ).attr( "data-idx" );
+       var href = $( this ).attr("href");
+  		$("#btn_bus_link").attr("href", href);
        $info_slide.slick( "slickGoTo", idx - 1 );
        $( "#mb-tab li.act" ).removeClass( "act" ),
            $( "#mb-tab-top li.act" ).removeClass( "act" ),

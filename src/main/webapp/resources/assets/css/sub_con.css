@@ -1262,9 +1262,9 @@
   }
   
   /* 수정 : main페이지 하단부에 padding생김 */
-  /* .con:not([class*=pb_]) {
+  .con:not([class*=pb_]) {
     padding-bottom: 7.5em;
-  } */
+  }
   
   .con.full {
     padding-bottom: 0;

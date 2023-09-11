@@ -59,20 +59,34 @@
                             <div class="bg pc" style="background-image:url(resources/assets/img/main/main_visual05.jpg)"></div>
                             <div class="bg mo" style="background-image:url(resources/assets/img/main/m_main_visual05.jpg)"></div>
                             <div class="txt">
-                                <h2 class="visual_tit"><span class="hidden"><span class="word"><b
-                                                class="fw_600">에이오코리아</b>가</span></span> <span class="hidden"><span
-                                            class="word">만드는</span></span><br /><span class="hidden"><span
-                                            class="word">새로운 가치</span></span></h2>
+                                <h2 class="visual_tit">
+                                	<!-- <span class="hidden"><span class="word">
+                                	<b class="fw_600">에이오코리아</b>가</span></span>
+                                	<span class="hidden"><span class="word">만드는</span></span>
+                                	<br />
+                                	<span class="hidden"><span class="word">새로운 가치</span></span> -->
+                                	<span class="hidden"><span class="word">우리의</span></span>
+                                    <span class="hidden"><span class="word">융복합</span></span>
+                                    <span class="hidden"><span class="word">기술로</span></span>
+                                    <span class="hidden"><span class="word">IT</span></span>
+                                    <span class="hidden"><span class="word">분야의</span></span>
+                                    <br>
+                                    <span class="hidden"><span class="word">새로운</span></span>
+                                    <span class="hidden"><span class="word">비즈니스</span></span>
+                                    <span class="hidden"><span class="word">모델을</span></span>
+                                    <span class="hidden"><span class="word">제시합니다.</span></span>
+                                </h2>
                                 <p class="visual_txt">
-                                    <span class="hidden"><span class="word">우리의</span></span> <span class="hidden"><span
-                                            class="word">융복합</span></span> <span class="hidden"><span
-                                            class="word">기술로</span></span> <span class="hidden"><span
-                                            class="word">IT</span></span> <span class="hidden"><span
-                                            class="word">분야의</span></span> <br><span class="hidden">
-                                        <span class="word">새로운</span></span> <span class="hidden"><span
-                                            class="word">비즈니스</span></span> <span class="hidden"><span
-                                            class="word">모델을</span></span> <span class="hidden"><span
-                                            class="word">제시합니다.</span></span>
+                                    <!-- <span class="hidden"><span class="word">우리의</span></span>
+                                    <span class="hidden"><span class="word">융복합</span></span>
+                                    <span class="hidden"><span class="word">기술로</span></span>
+                                    <span class="hidden"><span class="word">IT</span></span>
+                                    <span class="hidden"><span class="word">분야의</span></span>
+                                    <br>
+                                    <span class="hidden"><span class="word">새로운</span></span>
+                                    <span class="hidden"><span class="word">비즈니스</span></span>
+                                    <span class="hidden"><span class="word">모델을</span></span>
+                                    <span class="hidden"><span class="word">제시합니다.</span></span> -->
                                 </p>
                             </div>
                         </li>
@@ -81,18 +95,27 @@
                             <div class="bg mo" style="background-image:url(resources/assets/img/main/m_main_visual06.jpg)"></div>
                             
                             <div class="txt">
-                                <h2 class="visual_tit"><span class="hidden"><span
-                                            class="word">지능적인;</span></span><br class="none sm" /><span
-                                        class="hidden"><span class="word">토탈 솔루션으로</span></span> <br /><b
-                                        class="fw_600"><span class="hidden"><span class="word">세상을</span></span><br
-                                            class="none sm" /> <span class="hidden"><span
-                                                class="word">연결하는</span></span></b></h2>
+                                <h2 class="visual_tit">
+                                	<!-- <span class="hidden"><span class="word">지능적인;</span></span>
+                                	<br class="none sm" />
+                                	<span class="hidden"><span class="word">토탈 솔루션으로</span></span>
+                                	<br />
+                                	<b class="fw_600"><span class="hidden"><span class="word">세상을</span></span>
+                                	<br class="none sm" />
+                                	<span class="hidden"><span class="word">연결하는</span></span>
+                                	</b> -->
+                                	<span class="hidden"><span class="word">IoT혁신으로</span></span>
+                                    <span class="hidden"><span class="word">안전하고 원활한 </span></span>
+                                    <br class="sm_hide sm_none" />
+                                    <span class="hidden"><span class="word">환경을 제공하여</span></span>
+                                    <span class="hidden"><span class="word">사회를 발전시킵니다.</span></span>
+                                </h2>
                                 <p class="visual_txt">
-                                    <span class="hidden"><span class="word">IoT혁신으로</span></span><span
-                                        class="hidden"><span class="word">안전하고 원활한 </span></span><br
-                                        class="sm_hide sm_none" /><span class="hidden"><span class="word">환경을
-                                            제공하여</span></span> <span class="hidden"><span class="word">사회를
-                                            발전시킵니다.</span></span>
+                                    <!-- <span class="hidden"><span class="word">IoT혁신으로</span></span>
+                                    <span class="hidden"><span class="word">안전하고 원활한 </span></span>
+                                    <br class="sm_hide sm_none" />
+                                    <span class="hidden"><span class="word">환경을 제공하여</span></span>
+                                    <span class="hidden"><span class="word">사회를 발전시킵니다.</span></span> -->
                                 </p>
                             </div>
                         </li>
@@ -100,22 +123,31 @@
                             <div class="bg pc" style="background-image:url(resources/assets/img/main/main_visual07.jpg)"></div>
                             <div class="bg mo" style="background-image:url(resources/assets/img/main/m_main_visual07.jpg)"></div>
                             <div class="txt">
-                                <h2 class="visual_tit"><span class="hidden"><span class="word">신뢰할 수
-                                            있는&middot;</span></span><br class="none sm" /><span class="hidden"><span
-                                            class="word">클라우드 솔루션으로</span></span> <br /><b class="fw_600"><span
-                                            class="hidden"><span class="word">디지털혁신을</span></span><br class="none sm" />
-                                        <span class="hidden"></span></b></h2>
+                                <h2 class="visual_tit">
+                                	<!-- <span class="hidden"><span class="word">신뢰할 수 있는&middot;</span></span>
+                                	<br class="none sm" />
+                                	<span class="hidden"><span class="word">클라우드 솔루션으로</span></span>
+                                	<br />
+                                	<b class="fw_600"><span class="hidden"><span class="word">디지털혁신을</span></span>
+                                	<br class="none sm" />
+                                    <span class="hidden"></span>
+                                    </b> -->
+                                    <span class="hidden"><span class="word">무한한</span></span>
+                                    <span class="hidden"><span class="word">가능성을</span></span>
+                                    <br class="sm_hide sm_none" /><span class="hidden"><span class="word">활용하여</span></span>
+                                    <span class="hidden"><span class="word">비즈니스 성과를 극대화 합니다.</span></span>
+                                </h2>
                                 <p class="visual_txt">
-                                    <span class="hidden"><span class="word">무한한</span></span><span class="hidden"><span
-                                            class="word">가능성을</span></span><br class="sm_hide sm_none" /><span
-                                        class="hidden"><span class="word">활용하여</span></span> <span class="hidden"><span
-                                            class="word">비즈니스 성과를 극대화 합니다.</span></span>
+                                    <!-- <span class="hidden"><span class="word">무한한</span></span>
+                                    <span class="hidden"><span class="word">가능성을</span></span>
+                                    <br class="sm_hide sm_none" /><span class="hidden"><span class="word">활용하여</span></span>
+                                    <span class="hidden"><span class="word">비즈니스 성과를 극대화 합니다.</span></span> -->
                                 </p>
                             </div>
                         </li>
                     </ul>
                 </div>
-                <button class="prev visual_btn" type="button" title="이전">
+                <!-- <button class="prev visual_btn" type="button" title="이전">
                     <svg xmlns="http://www.w3.org/2000/svg" width="41.213" height="79.593" viewBox="0 0 41.213 79.593">
                         <path d="M1.4,41.2l38.4,38.4l1.4-1.4L2.8,39.8L41.2,1.4L39.8,0L1.4,38.4L0,39.8L1.4,41.2z"
                             style="fill:#fff" />
@@ -126,7 +158,7 @@
                         <path d="M1.4,41.2l38.4,38.4l1.4-1.4L2.8,39.8L41.2,1.4L39.8,0L1.4,38.4L0,39.8L1.4,41.2z"
                             style="fill:#fff" />
                     </svg>
-                </button>
+                </button> -->
                 <!-- prev, next :: e -->
                 <div class="visual_contr">
                     <p class="pagings swiper-pagination">
@@ -172,10 +204,10 @@
 
                             <!-- MB Tab -->
                             <ul id="mb-tab" class="mb-tab">
-                                <li class="act"><a href="/webapp.html" class="link" data-idx="1">Web&App</a></li>
-                                <li class=""><a href="/cloud.html" class="link" data-idx="2">클라우드</a></li>
-                                <li class=""><a href="/metaverse.html" class="link" data-idx="3">메타버스</a></li>
-                                <li class=""><a href="/iot.html" class="link" data-idx="4">IoT솔루션</a></li>
+                                <li class="act"><a href="/webapp" class="link" data-idx="1">Web&App</a></li>
+                                <li class=""><a href="/cloud" class="link" data-idx="2">클라우드</a></li>
+                                <li class=""><a href="/metaverse" class="link" data-idx="3">메타버스</a></li>
+                                <li class=""><a href="/iot" class="link" data-idx="4">IoT솔루션</a></li>
                                 <!-- <li class=""><a href="/aibigdata.html" class="link" data-idx="5">AI·BigData</a></li>
                                 <li class=""><a href="/smartfactory.html" class="link" data-idx="6">스마트팩토리</a></li> -->
                             </ul>
@@ -299,13 +331,12 @@
                                 <li><img src="resources/assets/img/main/meta.jpg" alt=""></li>
                                 <li><img src="resources/assets/img/main/cloud.jpg" alt=""></li>
                                 <li><img src="resources/assets/img/main/iot.jpg" alt=""></li>
-                                <li><img src="resources/assets/img/main/ai.png" alt=""></li>
-                                <li><img src="resources/assets/img/main/smartfactory.png" alt=""></li>
+                                <!-- <li><img src="resources/assets/img/main/ai.png" alt=""></li>
+                                <li><img src="resources/assets/img/main/smartfactory.png" alt=""></li> -->
 
                             </ul>
                             <!--// MB Image Slide -->
-                            <a href="/webapp" id="btn_bus_link" class="slide-btn slide-btn-default slide-btn-size-2">More
-                                Detail</a>
+                            <a href="/webapp" id="btn_bus_link" class="slide-btn slide-btn-default slide-btn-size-2">More Detail</a>
                             <input type="hidden" id="this_lang" value="ko">
                         </div>
                     </div>

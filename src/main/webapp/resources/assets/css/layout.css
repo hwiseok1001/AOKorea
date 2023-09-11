@@ -595,6 +595,8 @@ html, body {
     padding-left: 3.75em;
     padding-right: 3.75em;
   }
+  
+  /* 수정:allMenu_pattern.png파일없음으로 404오류발생 그럼으로 주석처리_휘석 */
   .allMenu::before {
     content: "";
     display: block;
@@ -603,10 +605,11 @@ html, body {
     left: 0;
     width: 50%;
     height: 100%;
-    background: #E46529 url(/resource/images/common/allMenu_pattern.png) no-repeat;
+    /* background: #E46529 url(/resource/images/common/allMenu_pattern.png) no-repeat; */
     background-size: cover;
     background-position: -14vw 35vh;
   }
+  
   .allMenu.on {
     opacity: 1;
     visibility: visible;
