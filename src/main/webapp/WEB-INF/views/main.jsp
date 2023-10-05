@@ -104,11 +104,11 @@
                                 	<br class="none sm" />
                                 	<span class="hidden"><span class="word">연결하는</span></span>
                                 	</b> -->
-                                	<span class="hidden"><span class="word">IoT혁신으로</span></span>
-                                    <span class="hidden"><span class="word">안전하고 원활한 </span></span>
+                                	<span class="hidden"><span class="word">가상 현실과 증강 현실의 미래를 형성하며,</span></span>
+                                    <!-- <span class="hidden"><span class="word">안전하고 원활한 </span></span> -->
                                     <br class="sm_hide sm_none" />
-                                    <span class="hidden"><span class="word">환경을 제공하여</span></span>
-                                    <span class="hidden"><span class="word">사회를 발전시킵니다.</span></span>
+                                    <span class="hidden"><span class="word">혁신과 창의력으로 현실을 넘어섭니다.</span></span>
+                                    <!-- <span class="hidden"><span class="word">사회를 발전시킵니다.</span></span> -->
                                 </h2>
                                 <p class="visual_txt">
                                     <!-- <span class="hidden"><span class="word">IoT혁신으로</span></span>
@@ -132,10 +132,11 @@
                                 	<br class="none sm" />
                                     <span class="hidden"></span>
                                     </b> -->
-                                    <span class="hidden"><span class="word">무한한</span></span>
-                                    <span class="hidden"><span class="word">가능성을</span></span>
-                                    <br class="sm_hide sm_none" /><span class="hidden"><span class="word">활용하여</span></span>
-                                    <span class="hidden"><span class="word">비즈니스 성과를 극대화 합니다.</span></span>
+                                    <span class="hidden"><span class="word">디지털 경험의 새로운 차원을 개척합니다.</span></span>
+                                    <!-- <span class="hidden"><span class="word">가능성을</span></span> -->
+                                    <br class="sm_hide sm_none" />
+                                    <span class="hidden"><span class="word">현실과 상상의 경계를 허무는 혁신 기술을 제공합니다.</span></span>
+                                    <!-- <span class="hidden"><span class="word">비즈니스 성과를 극대화 합니다.</span></span> -->
                                 </h2>
                                 <p class="visual_txt">
                                     <!-- <span class="hidden"><span class="word">무한한</span></span>
@@ -192,10 +193,10 @@
 					<!-- 차후:사업분야 수정필요 위치 -->
                     <!-- MB Top Tab -->
                     <ul id="mb-tab-top" class="mb-tab mb-tab-top">
-                        <li class="act"><a href="#" class="link" data-idx="1">Web&App</a></li>
-                        <li><a href="#" class="link" data-idx="2">클라우드</a></li>
-                        <li><a href="#" class="link" data-idx="3">매타버스</a></li>
-                        <li><a href="#" class="link" data-idx="4">IoT솔루션</a></li>
+                        <li class="act"><a href="/webapp" class="link" data-idx="1">Web&App</a></li>
+                        <li><a href="/cloud" class="link" data-idx="2">클라우드</a></li>
+                        <li><a href="/metaverse" class="link" data-idx="3">메타버스</a></li>
+                        <li><a href="/iot" class="link" data-idx="4">IoT솔루션</a></li>
                         <!-- <li><a href="#" class="link" data-idx="5">AI·BigData</a></li>
                         <li><a href="#" class="link" data-idx="6">스마트팩토리</a></li> -->
                     </ul>
@@ -344,6 +345,44 @@
             </section>
 
 
+
+            <section class="news m_cont">
+                <h3 class="con_tit1">에이오 코리아의 새로운 소식을 전해드립니다. </h3>
+                <div class="news-wrap">
+                    <div class="notice">
+                        <p class="more"><a href="/service">MORE </a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></p>
+                            <ul class="notice-list">
+
+                       <%--  <?php
+                            include 'dbconn.php';
+
+				$sql = "SELECT * FROM notice ORDER BY notice_Idx DESC LIMIT 5";
+				$stmt = $conn->prepare($sql);
+				$stmt->execute();
+                            if ($stmt->rowCount() > 0) {
+                                while($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+
+                        ?>
+                                <li class="notice-item">
+                                    <span><?=$row["notice_Written"]?></span> <a href="./service_Read.php?idx=<?=$row["notice_Idx"]?>"><?=$row["notice_Title"]?></a>
+                                </li>
+                        <?php
+                                }
+                            }
+                        ?> --%>
+                            </ul>
+                    </div>
+                    <div class="download">
+                        <img src="resources/assets/img/main/main_download.png" alt="">
+                        <!-- 차후:회사소개서 버튼 수정(?)필요 -->
+                        <!-- <button class="slide-btn slide-btn-default">회사소개서 다운로드</button> -->
+                    </div>
+                </div>
+            </section>
             <section id="certification" class="certification m_cont">
                 <h3 class="con_tit1 t_center">협력 업체</h3>
                 <div class="area">
@@ -471,44 +510,6 @@
                 </div>
 
 
-            </section>
-
-            <section class="news m_cont">
-                <h3 class="con_tit1">에이오 코리아의 새로운 소식을 전해드립니다. </h3>
-                <div class="news-wrap">
-                    <div class="notice">
-                        <p class="more"><a href="/service">MORE </a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
-                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-                            </svg></p>
-                            <ul class="notice-list">
-
-                       <%--  <?php
-                            include 'dbconn.php';
-
-				$sql = "SELECT * FROM notice ORDER BY notice_Idx DESC LIMIT 5";
-				$stmt = $conn->prepare($sql);
-				$stmt->execute();
-                            if ($stmt->rowCount() > 0) {
-                                while($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-
-                        ?>
-                                <li class="notice-item">
-                                    <span><?=$row["notice_Written"]?></span> <a href="./service_Read.php?idx=<?=$row["notice_Idx"]?>"><?=$row["notice_Title"]?></a>
-                                </li>
-                        <?php
-                                }
-                            }
-                        ?> --%>
-                            </ul>
-                    </div>
-                    <div class="download">
-                        <img src="resources/assets/img/main/main_download.png" alt="">
-                        <!-- 차후:회사소개서 버튼 수정(?)필요 -->
-                        <!-- <button class="slide-btn slide-btn-default">회사소개서 다운로드</button> -->
-                    </div>
-                </div>
             </section>
 
             <jsp:include page="footer.jsp"></jsp:include>

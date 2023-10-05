@@ -16,11 +16,18 @@
     	<property name="password" value="guru2sun2!"/>
     </bean>-->
     
-	<bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
+    <!-- 차후 라이브 서버 사용시 -->
+	<!-- <bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<property name="jdbcUrl" value="jdbc:mysql://outer.kr:3306/outer" />
 		<property name="username" value="jninvest" />
 		<property name="password" value="guru2sun" />
+	</bean> -->
+	<bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="jdbcUrl" value="jdbc:mysql://115.68.183.148:3306/aeokorea" />
+		<property name="username" value="aokorea" />
+		<property name="password" value="guru2sun1!" />
 	</bean>
    
 	<bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource" destroy-method="close">

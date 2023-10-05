@@ -30,9 +30,9 @@
                             </ul>
                         </li>
                         <li class="depth1">
-                            <a href="/">포트폴리오</a>
+                            <a href="/portfolio">포트폴리오</a>
                             <ul class="depth2">
-                                <li><a href="/">미정</a></li>
+                                <li><a href="/portfolio">포트폴리오</a></li>
                             </ul>
                         </li>
                         <li class="depth1">

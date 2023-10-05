@@ -83,4 +83,10 @@ public class PageMoveController {
 	public String recruit() {
 		return "recruit";
 	}
+	
+//	@RequestMapping(value="/portfolio")
+//	public String portfolio() {
+//		return "portfolio2";
+//	}
+	
 }

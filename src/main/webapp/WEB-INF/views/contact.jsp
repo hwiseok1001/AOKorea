@@ -106,7 +106,8 @@
         </section><!--sub_visual-->
         <main class="con" id="con">
             <section id="contact" class="wrap pt_80">
-                <form method="post" action="insert_contact_data.php" name="frm" id="frm" enctype="multipart/form-data">
+                <form method="post" action="contact_submit" name="frm" id="frm" onsubmit="return submitcheck()">
+<!--                 <form method="post" action="contact_submit" name="frm" id="frm" enctype="multipart/form-data"> -->
                     <input type="hidden" name="mode" value="new">
                     <input type="hidden" name="b_code" value="as_qna" />
                     <input type="hidden" name="b_no" value="">
@@ -123,7 +124,8 @@
                             <tbody>
                                 <tr>
                                     <th>성명<span class="important">*</span></th>
-                                    <td><input type="text" name="contact_Name" id="contact_Name" class="inp fm_full_md" value="" minlength="2" maxlength="20" title="이름을 입력해 주세요"></td>
+                                    <td><input type="text" name="userName" id="contact_Name" class="inp fm_full_md" value="" minlength="2" maxlength="20" title="이름을 입력해 주세요"></td>
+                                    <!-- <td><input type="text" name="contact_Name" id="contact_Name" class="inp fm_full_md" value="" minlength="2" maxlength="20" title="이름을 입력해 주세요"></td> -->
                                 </tr>
                                 <tr>
                                     <th>이메일<span class="important">*</span></th>
@@ -141,15 +143,18 @@
                                 <tr>
                                     <th>분류<span class="important">*</span></th></th>
                                     <td>
-                                    <select name="contact_Category" id="contact_Category" class='sel sel_md fm_full_md'><option value="">선택</option><option value="YESPARTNER" >YESPARTNER</option><option value="GHP" >GHP</option><option value="기타(환경사업)" >기타(환경사업)</option> </td>
+                                    <select name="classify" id="contact_Category" class='sel sel_md fm_full_md'><option value="">선택</option><option value="YESPARTNER" >YESPARTNER</option><option value="GHP" >GHP</option><option value="기타(환경사업)" >기타(환경사업)</option> </td>
+<!--                                     <select name="contact_Category" id="contact_Category" class='sel sel_md fm_full_md'><option value="">선택</option><option value="YESPARTNER" >YESPARTNER</option><option value="GHP" >GHP</option><option value="기타(환경사업)" >기타(환경사업)</option> </td> -->
                                 </tr>
                                 <tr>
                                     <th>제목<span class="important">*</span></th>
-                                    <td><input type="text" name="contact_Title" id="contact_Title" class="inp fm_full" value="" maxlength="50"></td>
+                                    <td><input type="text" name="title" id="contact_Title" class="inp fm_full" value="" maxlength="50"></td>
+<!--                                     <td><input type="text" name="contact_Title" id="contact_Title" class="inp fm_full" value="" maxlength="50"></td> -->
                                 </tr>
                                 <tr>
                                     <th>문의내용<span class="important">*</span></th>
-                                    <td><textarea name="contact_Content" id="contact_Content" class="ft ft_md" ></textarea></td>
+                                    <td><textarea name="content" id="contact_Content" class="ft ft_md" ></textarea></td>
+<!--                                     <td><textarea name="contact_Content" id="contact_Content" class="ft ft_md" ></textarea></td> -->
                                 </tr>
                             </tbody>
                         </table>
@@ -187,7 +192,8 @@
 
                     <div class="btn_box t_center wp_16 pt_55 pt_sm_40" id="btnGroup">
                         <button type="button" class="btn btn_line_cb2 btn_rd_full">취소</button>
-                        <button type="submit" id="submitButton" onclick="alert('처리되었습니다.')" class="btn btn_rd_full" disabled>확인</button>
+                        <button type="submit" id="submitButton" class="btn btn_rd_full" disabled>확인</button>
+<!--                         <button type="submit" id="submitButton" onclick="alert('처리되었습니다.')" class="btn btn_rd_full" disabled>확인</button> -->
                     </div>
     
                 </form>
@@ -199,6 +205,24 @@
 
     </section><!--container//-->
     <script>
+    	function submitcheck() {
+    		let userName = document.getElementById('contact_Name').value;
+    		let email1 = document.getElementById('email1').value;
+    		let email2 = document.getElementById('email2').value;
+    		let classify = document.getElementById('contact_Category').value;
+    		let title = document.getElementById('contact_Title').value;
+    		let content = document.getElementById('contact_Content').value;
+
+    		
+    		if(userName=="" || email1=="" || email2=="" || classify=="" || title=="" || content==""){
+    			alert("빈 공간이 있습니다.");
+    			return false;
+    		}else {
+    			alert("처리되었습니다.");
+    			return true;
+    		}
+    	}
+    
         function changeEmailDomain() {
             let emailDomainSelect = document.getElementById('email_domain');
             let email2Input = document.getElementById('email2');
